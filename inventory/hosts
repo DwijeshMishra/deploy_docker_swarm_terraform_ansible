@@ -1,0 +1,9 @@
+[masters]
+3.110.124.172 ansible_user=ubuntu ansible_private_key_file=/home/dwijesh/Downloads/docker.pem  
+
+#ansible_private_key_file=/home/dwijesh/Downloads/docker.pem
+
+[workers]
+#ansible_user=ubuntu
+52.66.249.36 ansible_user=ubuntu ansible_private_key_file=/home/dwijesh/Downloads/docker.pem
+65.0.21.76 ansible_user=ubuntu ansible_private_key_file=/home/dwijesh/Downloads/docker.pem
